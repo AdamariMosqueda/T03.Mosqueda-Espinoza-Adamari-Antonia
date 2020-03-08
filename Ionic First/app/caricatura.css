@@ -1,0 +1,25 @@
+
+.label {
+    color: rebeccapurple;
+    display: flex;
+  justify-content: center;
+  font-size: 25px !important;
+  margin: auto;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+}
+h1 {
+    text-align: center;
+}
+ion-card-title{
+    text-align: center;
+}
+
+ion-card-content {
+    text-align: justify;
+}
+.align {
+     align-items: center !important;
+     text-align: center;
+ }
+ 

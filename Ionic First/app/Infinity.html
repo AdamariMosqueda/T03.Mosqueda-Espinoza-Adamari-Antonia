@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEC-TOONS</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+    <LINK REL=StyleSheet HREF="caricatura.css" TYPE="text/css" MEDIA=screen>
+</head>
+<body>
+    <ion-app>
+        <ion-content>
+            <ion-card>
+                <img src="../IMG/InfinityTrain.png"> 
+                <ion-card-title>
+                   INFINITY TRAIN
+                </ion-card-title>
+            </ion-card>
+            <ion-row>
+                <ion-col>
+                   <b>Año:</b> 2019 <br>
+                   <b>Creador:</b> 	Owen Dennis <br>
+                   <b>Edades:</b> Todo público  <br>
+                   <b>Género:</b> Misterio
+                </ion-col>
+                <ion-col class="align">
+                    <h2>Puntuación</h2>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-half-outline"></ion-icon>
+                </ion-col>
+            </ion-row>
+            <ion-card>
+                <ion-card-title>Reseña</ion-card-title>
+                <ion-card-content>
+                    La serie es una antología animada, cuya trama transcurre en torno 
+                    a un tren de gran envergadura y aparentemente infinito que viaja a 
+                    través de un paisaje árido en un universo paralelo. El tren se aparece 
+                    traspasando la realidad y recoge pasajeros que tienen problemas emocionales 
+                    no resueltos teletransportándolos a otra dimensión. Los vagones del tren 
+                    contienen una variedad de mundos extraños y fantásticos; a medida que los 
+                    pasajeros viajan a través de los vagones del tren, sus aventuras les dan la 
+                    oportunidad de confrontar y resolver sus problemas.
+            </ion-card-content>
+            </ion-card>
+            <ion-card>
+                <ion-card-content>
+                    <h2>Comentarios</h2>
+                    
+                    <ion-item>
+                      <ion-label position="floating"> Su nombre </ion-label>
+                      <ion-input type = "text" id = "input-user"></ion-input>
+    
+                      <ion-label position="floating"> Comentario </ion-label>
+                      <ion-input type = "text" id = "input-comentario"></ion-input>
+                  </ion-item>
+                  <div margin-vertical text-right>
+                      <ion-button expand = "block" color="tertiary" id= "btn-add">
+                          <ion-icon slot="start" name="add"></ion-icon>
+                          Comentar
+                      </ion-button>
+                      </div>
+                    <ion-list id="list"></ion-list>
+                </ion-card-content>
+            </ion-card>
+            <a href="index.html">
+                <ion-button expand = "block" color="tertiary"><ion-icon name="home-outline">
+                </ion-icon> Regresar</ion-button> </a>
+        </ion-content>
+    </ion-app>  
+    <script src="script2.js"></script>
+
+</body>
+</html>
+

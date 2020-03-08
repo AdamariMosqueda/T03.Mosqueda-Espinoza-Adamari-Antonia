@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+<LINK REL=StyleSheet HREF="caricatura.css" TYPE="text/css" MEDIA=screen>
+  <title>TEC-TOONS</title>
+</head>
+<body>
+  <ion-app>
+    <ion-header>
+      <h1> TEC-TOONS</h1>
+  </ion-header>
+  
+  <ion-content>
+    <ion-card>
+        <img src="../IMG/Lonuevo.jpg">
+    </ion-card>
+     <ion-label position = "fixed" class = "label"> RECIENTES </ion-label>
+     <ion-grid>
+        <ion-row>
+            <ion-col size = "6">
+                <a href="Steven.html"><img src="../IMG/SUFuture.jpg" ></a>
+            </ion-col>
+            <ion-col size = "6">
+                <a href="Hazbin.html"><img src="../IMG/HazbinH.png"> </a>
+            </ion-col>
+          </ion-row>
+        <ion-row>
+            <ion-col size = "6">
+        <a href="Helluva.html"><img src="../IMG/HB.jpg"> </a>
+    </ion-col> 
+    <ion-col size = "6">
+       <a href="Infinity.html"> <img src="../IMG/INT.webp"> </a>
+    </ion-col>
+    </ion-row>
+     </ion-grid>
+     <ion-card>
+       <ion-card-content>
+
+        <h2>Lista de sugerencias</h2>
+        <p>Agregue las caricaturas que desee ver en nuestra aplicacion
+         en un futuro
+        </p>
+        <ion-item>
+          <ion-label position="floating"> Nombre de la caricatura </ion-label>
+          <ion-input type = "text" id = "input-caricatura"></ion-input>
+      </ion-item>
+      <div margin-vertical text-right>
+          <ion-button expand = "block" color="tertiary" id= "btn-agregar">
+              <ion-icon slot="start" name="add"></ion-icon>
+              Agregar
+          </ion-button>
+          </div>
+        <ion-list id="list"></ion-list>
+       </ion-card-content>
+     </ion-card>
+    </ion-content>
+  </ion-app>
+  <script src="script.js"></script>
+</body>
+</html>

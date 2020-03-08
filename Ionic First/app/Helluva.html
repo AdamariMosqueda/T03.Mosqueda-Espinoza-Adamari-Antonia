@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEC-TOONS</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+    <LINK REL=StyleSheet HREF="caricatura.css" TYPE="text/css" MEDIA=screen>
+</head>
+<body>
+    <ion-app>
+        <ion-content>
+            <ion-card>
+                <img src="../IMG/HelluvaBoss.png"> 
+                <ion-card-title>
+                    HELLUVA BOSS
+                </ion-card-title>
+            </ion-card>
+            <ion-row>
+                <ion-col>
+                   <b>Año:</b> 2019 <br>
+                   <b>Creador:</b> Vivienne Medrano <br>
+                   <b>Edades:</b> +18  <br>
+                   <b>Género:</b> Comedia
+                </ion-col>
+                <ion-col class="align">
+                    <h2>Puntuación</h2>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                </ion-col>
+            </ion-row>
+            <ion-card>
+                <ion-card-title>Reseña</ion-card-title>
+                <ion-card-content>
+                    En el Infierno, los Imps están en los más bajo de la sociedad, 
+                    pero ¿qué sucede cuando uno comienza un negocio de asesinos? 
+                    ¡Esto es lo que pasa! Sigue a Blitzo mientras intenta dirigir 
+                    una nueva empresa de asesinatos en un mercado muy competitivo, 
+                    junto con su especialista en armas Moxxie, la poderosa Millie y 
+                    su recepcionista Loona. Con la ayuda de un libro antiguo obtenido 
+                    por uno de los príncipes del Infierno, ellos logran hacer posible 
+                    su trabajo y juntos intentan sobrevivir mutuamente mientras intentan mantener su negocio a flote.
+            </ion-card-content>
+            </ion-card>
+            <ion-card>
+                <ion-card-content>
+                    <h2>Comentarios</h2>
+                    
+                    <ion-item>
+                      <ion-label position="floating"> Su nombre </ion-label>
+                      <ion-input type = "text" id = "input-user"></ion-input>
+    
+                      <ion-label position="floating"> Comentario </ion-label>
+                      <ion-input type = "text" id = "input-comentario"></ion-input>
+                  </ion-item>
+                  <div margin-vertical text-right>
+                      <ion-button expand = "block" color="tertiary" id= "btn-add">
+                          <ion-icon slot="start" name="add"></ion-icon>
+                          Comentar
+                      </ion-button>
+                      </div>
+                    <ion-list id="list"></ion-list>
+                </ion-card-content>
+            </ion-card>
+            <a href="index.html">
+                <ion-button expand = "block" color="tertiary"><ion-icon name="home-outline">
+                </ion-icon> Regresar</ion-button> </a>
+        </ion-content>
+    </ion-app> 
+    <script src="script2.js"></script>
+ 
+</body>
+</html>
+
